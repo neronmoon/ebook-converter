@@ -2,8 +2,8 @@ __license__ = 'GPL 3'
 __copyright__ = '2011, John Schember <john@nachtimwald.com>'
 __docformat__ = 'restructuredtext en'
 
-from calibre.ebooks.oeb.base import OEB_DOCS, XPath, barename
-from calibre.utils.unsmarten import unsmarten_text
+from ebook_converter.ebooks.oeb.base import OEB_DOCS, XPath, barename
+from ebook_converter.utils.unsmarten import unsmarten_text
 
 
 class UnsmartenPunctuation:
